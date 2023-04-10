@@ -5,8 +5,9 @@ import './SalesFigure.scss'
 
 const SalesFigure = () => {
     return (
-        <div className='w-[65vw] h-[64%] m-10 rounded-2xl shadow-2xl p-5 bg-white'
-            style={{position:'absolute', top:'5%', left:'15%'}}>
+        <div className='salesfigure m-10 rounded-2xl shadow-2xl p-5 bg-white'>
+        {/* // <div className='salesfigure w-[65vw] h-[64%] m-10 rounded-2xl shadow-2xl p-5 bg-white' */}
+            {/* // style={{position:'absolute', top:'5%', left:'27em'}}> */}
 
         {/* --- Header --- */}
         <div className="h-[10%] flex justify-between items-center pb-10  bg-white"

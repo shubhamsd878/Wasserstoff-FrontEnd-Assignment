@@ -136,7 +136,7 @@ const BarChart = () => {
         <div className='bars light-bars' style={{ height: '18px' }} />
 
       </div>
-      <hr className='bar-bottom-hr'/>
+      <hr className='bar-bottom-hr m-1'/>
     </div>
   )
 }

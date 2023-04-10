@@ -1,3 +1,11 @@
+.salesfigure {
+    position: fixed !important;
+    bottom: 5em !important;
+    left: 12em !important;
+    height: 27em !important;
+    width: 55.4em !important;
+}
+
 .chart {
     height: 100%;
     width: 100%;
@@ -24,13 +32,13 @@
 
     .x-axis {
         gap: 6%;
-        padding-left: 2rem;
+        padding: 0 3rem ;
     }
 
 
     // css for bubbles
 
-    .blue-bubble p{
+    .blue-bubble p {
         font-weight: 200;
         font-size: small;
         margin: -0.7em !important;
@@ -112,7 +120,7 @@
     }
 
     // css for particular bubbles 
-    .big-blue{
+    .big-blue {
         position: absolute;
         width: 26em;
         height: 26em;
@@ -120,8 +128,8 @@
         top: 6%;
     }
 
-    .red-center{
-        
+    .red-center {
+
         position: absolute;
         width: 17.6em;
         height: 17.6em;
@@ -129,23 +137,23 @@
         top: 31%;
     }
 
-    .yellow-right{
+    .yellow-right {
         position: absolute;
         width: 15.2em;
         height: 15.2em;
         left: 74%;
         top: 25%;
     }
-    
-    .yellow-center{
+
+    .yellow-center {
         position: absolute;
         width: 12em;
         height: 12em;
         left: 28%;
         top: 48%;
     }
-    
-    .red-extra-1{
+
+    .red-extra-1 {
         position: absolute;
         width: 9em;
         height: 9em;
@@ -153,7 +161,7 @@
         top: 39%;
     }
 
-    .yellow-extra-1{
+    .yellow-extra-1 {
         position: absolute;
         width: 3em;
         height: 3em;
@@ -161,7 +169,7 @@
         top: 26%;
     }
 
-    .purple-extra-1{
+    .purple-extra-1 {
         position: absolute;
         width: 3.8em;
         height: 3.8em;
@@ -169,31 +177,31 @@
         top: 56%;
     }
 
-    .purple-extra-2{
+    .purple-extra-2 {
         position: absolute;
         width: 2em;
         height: 2em;
         left: 58%;
         top: 66%;
     }
-    
-    .purple-extra-3{
+
+    .purple-extra-3 {
         position: absolute;
         width: 8.5em;
         height: 8.5em;
         left: 80%;
         top: 12%;
     }
-    
-    .purple-extra-4{
+
+    .purple-extra-4 {
         position: absolute;
         width: 1.6em;
         height: 1.6em;
         left: 70%;
         top: 25%;
     }
-    
-    .blue-extra-2{
+
+    .blue-extra-2 {
         position: absolute;
         width: 2em;
         height: 2em;

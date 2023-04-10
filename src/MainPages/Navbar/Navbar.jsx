@@ -8,10 +8,11 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [active, setActive] = useState('/')
+    // eslint-disable-next-line
     useEffect(()=> {
         const pathname = window.location.pathname
         setActive(pathname)
-    })
+    }, [])
 
     return (
         <>
