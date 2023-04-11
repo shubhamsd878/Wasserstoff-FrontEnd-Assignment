@@ -1,7 +1,7 @@
 import React from 'react'
-import OverviewBottom from '../../components/first/OverviewBottom'
-import OverviewSidebar from '../../components/first/OverviewSidebar'
-import OverviewMain from '../../components/first/OverviewMain'
+import OverviewBottom from '../../components/Overview/OverviewBottom'
+import OverviewSidebar from '../../components/Overview/OverviewSidebar'
+import OverviewMain from '../../components/Overview/OverviewMain'
 import './Overview.scss'
 
 const Overview = () => {
