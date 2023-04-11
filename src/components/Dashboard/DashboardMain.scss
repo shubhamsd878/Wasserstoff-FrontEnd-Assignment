@@ -43,7 +43,7 @@
 
         border-radius: 50%;
         overflow: hidden;
-        filter: drop-shadow(0px 54px 70px rgba(#5F5EC7, 0.3));
+        filter: drop-shadow(14px 26px 30px rgba(95, 94, 199, 0.4));
 
         .purple-circle {
             height: 100%;
@@ -52,7 +52,7 @@
             border-radius: 50%;
 
             background: radial-gradient(circle at 55% 55%, #8082EE 0%, #8082EE 0%, #5F5EC7 50%, #5F5EC7 55%, #5F5EC7 60%, #a261ff 62%, #e6daf7 97%);
-            
+
             -webkit-filter: blur(10px);
         }
 
@@ -71,7 +71,7 @@
         overflow: hidden;
         z-index: 2;
 
-        filter: drop-shadow(0px 36px 20px rgba(223, 96, 211, 0.3));
+        filter: drop-shadow(28px 36px 27px rgba(223, 96, 211, 0.5));
 
 
         .pink-circle {
@@ -87,12 +87,14 @@
         }
 
         .inner-babypink-pink-circle {
-            height: 4%;
-            width: 2%;
+            height: 2em;
+            width: 2em;
 
             border-radius: 50%;
 
             position: absolute;
+            top: 8%;
+            right: 13%;
 
             background-color: #FDBDB7;
             margin: auto;
@@ -130,7 +132,17 @@
             //dark blue: #2462F1
             // outer blue: #48A0E8
         }
+
     }
+
+    // as some purple circles have a left blue corner
+    .blue-left-corner-dropshadow {
+        box-shadow: 0 40px 80px rgba(34, 1, 249, .24),
+            inset 0 2px 10px hsla(0, 1%, 99%, .58),
+            inset 0 -20px 50px rgba(125, 160, 254, 0.37),
+            inset 10px 16px 20px rgba(6, 99, 254, 0.95)
+    }
+
 
     .outer-orange-circle {
         height: 10em;
@@ -184,6 +196,12 @@
 
         filter: drop-shadow(0px 30px 24px rgba(27, 120, 247, 0.5));
 
+        // for bottom-left-blue-shade
+        box-shadow: 0 40px 80px rgba(34, 1, 249, 0.24),
+            inset 0 2px 10px rgba(252, 252, 252, 0.58),
+            inset 0 -20px 50px rgba(125, 160, 254, 0.37),
+            inset 10px 1px 20px rgba(6, 99, 254, 0.95);
+
 
         .skyblue-circle {
             height: 100%;
@@ -197,24 +215,29 @@
 
         }
 
+        // for white highlight near center
         .inner-skyblue-circle {
-            height: 30%;
-            width: 30%;
-            margin: 29% 50%;
+            height: 35%;
+            width: 35%;
+            // margin: 29% 50%;
 
             border-radius: 50%;
 
             position: absolute;
+            top: 22%;
+            right: 8%;
 
-            background-color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.99);
             margin: auto;
-            -webkit-filter: blur(6px);
+            -webkit-filter: blur(7px);
         }
 
         // 1: #50B5FA
         // 2: #1B78F7
         // 3: #5CB1F6
     }
+
+
 
     // ========================================== styles for size and location of circles ==========================================
     .center-purple-big {
@@ -289,6 +312,8 @@
         position: relative;
         left: 104%;
         top: -99%;
+
+
     }
 
     .right-down-corner-purple {

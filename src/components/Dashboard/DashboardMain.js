@@ -27,7 +27,7 @@ const DashboardMain = () => {
           <div className='purple-circle'>
           </div>
           <div className='center-purple-text  d-flex flex-column align-items-center'>
-            <p className=''>Investments</p>
+            <p className='' style={{ color: '#cccccc' }}>Investments</p>
             <h6>$76,644</h6>
             <p class="no-word-wrap" style={{ fontSize: '0.6rem' }}>3 Months</p>
           </div>
@@ -35,8 +35,8 @@ const DashboardMain = () => {
 
         <div className="outer-pink-circle left-down-pink">
           <div className='pink-circle'>
-            <div className='inner-babypink-pink-circle' style={{ margin: "4% 6%" }}></div>
           </div>
+          <div className='inner-babypink-pink-circle' style={{ margin: "4% 6%" }}></div>
           <div className='left-down-pink-text  d-flex flex-column align-items-center'>
             <p style={{ fontSize: '0.75rem' }}>Design</p>
             <p style={{ fontSize: '0.9rem' }}>$32,982</p>
@@ -87,11 +87,11 @@ const DashboardMain = () => {
           <div className='purple-circle'></div>
         </div>
 
-        <div className="outer-purple-circle outer-bottom-right-purple">
+        <div className="outer-purple-circle outer-bottom-right-purple blue-left-corner-dropshadow">
           <div className='purple-circle'></div>
         </div>
 
-        <div className="outer-purple-circle right-up-purple">
+        <div className="outer-purple-circle right-up-purple  blue-left-corner-dropshadow">
           <div className='purple-circle'></div>
         </div>
 
@@ -99,7 +99,7 @@ const DashboardMain = () => {
           <div className='purple-circle'></div>
         </div>
 
-        <div className="outer-purple-circle left-down-corner-purple">
+        <div className="outer-purple-circle left-down-corner-purple blue-left-corner-dropshadow">
           <div className='purple-circle'></div>
         </div>
 
@@ -121,19 +121,17 @@ const DashboardMain = () => {
 
         {/* to be skyblue */}
         <div className="outer-skyblue-circle left-skyblue-1">
-          <div className='skyblue-circle'>
-            <div className='inner-skyblue-circle' style={{ margin: "4% 6%" }}></div>
-          </div>
+          <div className='skyblue-circle'></div>
+          <div className='inner-skyblue-circle' style={{ margin: "4% 6%" }}></div>
         </div>
 
         <div className="outer-skyblue-circle left-skyblue-2">
-          <div className='skyblue-circle'>
-            <div className='inner-skyblue-circle' style={{ margin: "4% 6%" }}></div>
-          </div>
+          <div className='skyblue-circle'></div>
+          <div className='inner-skyblue-circle' style={{ margin: "4% 6%" }}></div>
 
         </div>
 
-        <div className="outer-purple-circle right-center-2">
+        <div className="outer-purple-circle right-center-2  blue-left-corner-dropshadow">
           <div className='purple-circle'></div>
         </div>
 
